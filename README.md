@@ -12,7 +12,7 @@ Figures 4, S6, and S7 display size distributions for small molecules
 
 (2) predicted by random graph theory from the degree distribution predicted by the ten-reaction model (10RM+RGT),
 
-(3) and extracted from MD simulations
+(3) and extracted from MD simulations,
 
 and Wasserstein W1 dstances between distributions [(1) and (3)] and [(2) and (3)].
 
