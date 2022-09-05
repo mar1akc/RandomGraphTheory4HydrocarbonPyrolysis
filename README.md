@@ -1,4 +1,4 @@
-# RandomGraphTheory4HydrocarbonPyrolysis
+# Random Graph Theory for Hydrocarbon Pyrolysis
 The configuration model and generating function formalism proposed by Newman, Strogats and Watts (2001) 
 (https://journals.aps.org/pre/pdf/10.1103/PhysRevE.64.026118)
 can be used to predict molecule size distribution in hydrocarbon pyrolysis 
