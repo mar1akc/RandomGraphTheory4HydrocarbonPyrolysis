@@ -36,7 +36,7 @@ Function ***SmallMolSizeDistr.m*** generates an input file ***W1data.mat*** for 
 * To reproduce plots with Wasserstein distances, run ***W1dist4SmallMolSizeDistr.m***
 
 Figures 5 and S8 in [*Dufour-Decieux, Moakler, Cameron, Reed*, 2022, https://arxiv.org/abs/2205.13664*] display the **largest molecule size distributions**<br> 
-(4) extracted from MD data (MD data) and ,br>
+(4) extracted from MD data (MD data) and ,<br>
 (5) obtained using random graph sampling for degree distributions generated using the ten-reaction model (10RM+RGS). <br>
 To reproduce the histograms depicting the largest molecule size distributions run the following sequence of codes:<br>
 * Run ***LargestMolSizeDistr.m***. It generates Nsamples=10000 samples of random graphs for each degree distribution contained in the input file ***Data/Degrees_predictions_10reac.csv*** and creates output file ***Data/largest_mol_hist_data_10RM_RGS.mat***. Codes ***SampleConfigurationModel.m*** and ***DFS.m*** are called by ***LargestMolSizeDistr.m*** to generate samples of random graph and find their sets of connected components, respectively. The output file ***Data/largest_mol_hist_data_10RM_RGS.mat*** contains 3-by-17 cell array of the following format: <br>
