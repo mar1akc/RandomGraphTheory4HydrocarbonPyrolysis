@@ -41,7 +41,7 @@ Figures 5 and S8 in [*Dufour-Decieux, Moakler, Cameron, Reed*, 2022, https://arx
 To reproduce the histograms depicting the largest molecule size distributions run the following sequence of codes:<br>
 * Run ***SampleConfigurationModel.m***. It generates Nsamples=10000 samples of random graphs for each degree distribution contained in the input file ***Data/Degrees_predictions_10reac.csv*** and creates output file ***Data/largest_mol_hist_data_10RM_RGS.mat***. File ***Data/largest_mol_hist_data_10RM_RGS.mat*** contains 3-by-17 cell array of the following format: <br>
 data_10RM_RGT = load("Data/largest_mol_hist_data_10RM_RGS.mat");
-d2 = data_10RM_RGT.largest_mol_hist_data_10RM_RGS;
+d2 = data_10RM_RGT.largest_mol_hist_data_10RM_RGS; <br>
 % d2{1,j} = string with the name of the dataset j<br>
 % d2{2,j} = array of counts of random graph samples with largest connected component of size s<br>
 % d2{3,j} = array of values s spanning the range of sizes of largest connected components<br>
