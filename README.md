@@ -2,7 +2,7 @@
 The configuration model and generating function formalism proposed by Newman, Strogats and Watts (2001) 
 (https://journals.aps.org/pre/pdf/10.1103/PhysRevE.64.026118)
 can be used to predict molecule size distribution in hydrocarbon pyrolysis 
-(*Dufour-Decieux, Moakler, Cameron, Reed*, 2022, https://arxiv.org/abs/2205.13664).
+[*Dufour-Decieux, Moakler, Cameron, Reed*, 2022, https://arxiv.org/abs/2205.13664].
 
 This repository contains a collection of Matlab codes allowing you to reproduce Figures 4 and 5 in the main text and S6, S7, and S8 in Supplementary Materials.
 
@@ -13,7 +13,7 @@ Figures 4, S6, and S7 display size distributions for small molecules <br>
 and Wasserstein W1 dstances between distributions [(1) and (3)] and [(2) and (3)].
 
 * To reproduce small molecule size distributions in Figures 4, S6, and S7, run ***SmallMolSizeDistr.m***. <br>
-Input data for ***SmallMolSizeDistr.m*** are found in folder ***Data***. There are two input files: ***Degrees_predictions_10reac.csv*** and ***DegreeAndMolSizeMDdata.mat***. The total number of datasets available is 17, the first 14 of which were used for the main study conducted in (*Dufour-Decieux, Moakler, Cameron, Reed*, 2022, https://arxiv.org/abs/2205.13664) while the last three with 320 carbons each were generated for the study of the size effect.<br>
+Input data for ***SmallMolSizeDistr.m*** are found in folder ***Data***. There are two input files: ***Degrees_predictions_10reac.csv*** and ***DegreeAndMolSizeMDdata.mat***. The total number of datasets available is 17, the first 14 of which were used for the main study conducted in [*Dufour-Decieux, Moakler, Cameron, Reed*, 2022, https://arxiv.org/abs/2205.13664*] while the last three with 320 carbons each were generated for the study of the size effect.<br>
 The file ***Degrees_prediction_10reac.csv*** contains degree counts predicted by the ten-reaction model, as well as  the numbers of carbons, temperatures, and H/C ratio data. In order to convert the degree counts to degree distributions, we divide these counts by the numbers of carbons in corresponsing systems also given in this file. ***Degrees_predictions_10reac.csv*** is converted to data arrays by function ***read_data(filename)*** contained in ***SmallMolSizeDistr.m***. <br>
 The file ***DegreeAndMolSizeMDdata.mat*** is a structure consisting of two 3-by-17 cell arrays: ***DegreeDistribution_cell*** and ***MolSizeDistribution_cell***:<br>
 d = load(fname_DegAndMolSize);<br>
@@ -34,3 +34,5 @@ Function ***CompSizeDistr_derivatives.m*** is used to compute error bars for dis
 Function ***SmallMolSizeDistr.m*** generates an input file ***W1data.mat*** for ***W1dist4SmallMolSizeDistr.m***. 
 
 * To reproduce plots with Wasserstein distances, run ***W1dist4SmallMolSizeDistr.m***
+
+Figures 5 and S8 in [*Dufour-Decieux, Moakler, Cameron, Reed*, 2022, https://arxiv.org/abs/2205.13664*] display histograms comparing the largest molecule size distributions extracted from MD data and obtained using random graph sampling for degree distributions generated using the ten-reaction model (10RM+RGS)
