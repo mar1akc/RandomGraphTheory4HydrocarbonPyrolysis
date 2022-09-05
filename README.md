@@ -16,6 +16,6 @@ Figures 4, S6, and S7 display size distributions for small molecules
 
 and Wasserstein W1 dstances between distributions [(1) and (3)] and [(2) and (3)].
 
-To reproduce small molecule size distributions in Figures 4, S6, and S7, run SmallMolSizeDistr.m. 
+To reproduce small molecule size distributions in Figures 4, S6, and S7, run SmallMolSizeDistr.m. Input data for SmallMolSizeDistr.m are found in folder Data. SmallMolSizeDistr.m generates an input file W1data.mat for W1dist4SmallMolSizeDistr.m. 
 
 To reproduce plots with Wasserstein distances, run W1dist4SmallMolSizeDistr.m
