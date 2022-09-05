@@ -27,7 +27,6 @@ sd = d.MolSizeDistribution_cell; <br>
 % sd{1,j} = string with the name of the dataset j <br>
 % sd{2,j} = molecule size distribution for dataset j extracted from MD simulations <br>
 % sd{3,j} = standard deviations for molecule counts for dataset j  <br>
-
 Functions ***H0distributions.m***, ***CompSizeDistr_pi.m*** and ***CompSizeDistr_derivatives.m*** are called by ***SmallMolSizeDistr.m***. <br>
 Function ***H0distribution.m*** computes the probability distribution $(P_s)$ where $P_s$ is the probability for a randomly picked vertex to belong to a connected component of size $s$. <br>
 Function ***CompSizeDistr_pi.m*** recasts the distribution $(P_s)$ to the distribution $(\pi_s)$ where $\pi_s$ is the probability for a randomly picked connected component to contain $s$ vertices. <br>
