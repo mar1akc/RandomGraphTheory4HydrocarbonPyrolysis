@@ -9,7 +9,7 @@ This repository contains a collection of Matlab codes allowing you to reproduce 
 Figures 4, S6, and S7 display size distributions for small molecules <br>
 (1) predicted by random graph theory from the degree distribution extracted from MD simulations (RGT), <br>
 (2) predicted by random graph theory from the degree distribution predicted by the ten-reaction model (10RM+RGT),<br>
-(3) and extracted from MD simulations,<br>
+(3) and extracted from MD simulations (MD),<br>
 and Wasserstein W1 dstances between distributions [(1) and (3)] and [(2) and (3)].
 
 To reproduce small molecule size distributions in Figures 4, S6, and S7, run ***SmallMolSizeDistr.m***. <br>
