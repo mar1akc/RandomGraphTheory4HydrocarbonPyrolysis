@@ -15,8 +15,8 @@ and Wasserstein W1 dstances between distributions [(1) and (3)] and [(2) and (3)
 To reproduce small molecule size distributions in Figures 4, S6, and S7, run ***SmallMolSizeDistr.m***. <br>
 Input data for ***SmallMolSizeDistr.m*** are found in folder ***Data***. <br>  
 Functions ***H0distributions.m***, ***CompSizeDistr_pi.m*** and ***CompSizeDistr_derivatives.m*** are called by ***SmallMolSizeDistr.m***. <br>
-Function ***H0distribution.m*** computes the probability distribution {P_s} where P_s is the probability for a randomly picked vertex to belong to a connected component of size s. <br>
-Function ***CompSizeDistr_pi.m*** recasts the distribution {P_s} to the distribution {\pi_s} where is the probability for a randomly picked connected component to contain s vertices. <br>
+Function ***H0distribution.m*** computes the probability distribution $\{P_s}$ where $P_s$ is the probability for a randomly picked vertex to belong to a connected component of size $s$. <br>
+Function ***CompSizeDistr_pi.m*** recasts the distribution $\{P_s\}$ to the distribution $\{\pi_s\}$ where $\pi_s$ is the probability for a randomly picked connected component to contain $s$ vertices. <br>
 Function ***CompSizeDistr_derivatives.m*** is used to compute error bars for distribution (1). <br> 
 Function ***SmallMolSizeDistr.m*** generates an input file ***W1data.mat*** for ***W1dist4SmallMolSizeDistr.m***. 
 
