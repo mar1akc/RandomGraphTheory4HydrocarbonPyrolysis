@@ -42,7 +42,7 @@ In addition, Figure 5 displays Wasserstein W1 distances between distributions [(
 
 To reproduce the histograms depicting the largest molecule size distributions  and the Waserstein distances,run the following sequence of codes:<br>
 * Run ***LargestMolSizeDistr.m***. It generates Nsamples=10000 samples of random graphs for each degree distribution contained in the input file ***Data/Degrees_predictions_10reac.csv*** and creates output file ***Data/largest_mol_hist_data_10RM_RGS.mat***. Codes ***SampleConfigurationModel.m*** and ***DFS.m*** are called by ***LargestMolSizeDistr.m*** to generate samples of random graph and find their sets of connected components, respectively. The output file ***Data/largest_mol_hist_data_10RM_RGS.mat*** contains 3-by-17 cell array of the following format: <br>
-data_10RM_RGT = load("Data/largest_mol_hist_data_10RM_RGS.mat");
+data_10RM_RGT = load("Data/largest_mol_hist_data_10RM_RGS.mat");<br>
 d2 = data_10RM_RGT.largest_mol_hist_data_10RM_RGS; <br>
 % d2{1,j} = string with the name of the dataset j<br>
 % d2{2,j} = array of counts of random graph samples with largest connected component of size s<br>
