@@ -13,7 +13,7 @@ Figures 4, S6, and S7 display the following **size distributions for small molec
 In addition, Figure 4 displays Wasserstein W1 dstances between distributions [(1) and (3)] and [(2) and (3)].
 
 * To reproduce small molecule size distributions in Figures 4, S6, and S7, run ***SmallMolSizeDistr.m***. <br>
-Input data for ***SmallMolSizeDistr.m*** are found in folder ***Data***. There are two input files: ***Degrees_predictions_10reac.csv*** and ***DegreeAndMolSizeMDdata.mat***. The total number of datasets available is 17, the first 14 of which were used for the main study conducted in [*Dufour-Decieux, Moakler, Cameron, Reed*, 2022, https://arxiv.org/abs/2205.13664*] while the last three with 320 carbons each were generated for the study of the size effect.<br>
+Input data for ***SmallMolSizeDistr.m*** are found in folder ***Data***. There are two input files: ***Degrees_predictions_10reac.csv*** and ***DegreeAndMolSizeMDdata.mat***. The total number of datasets available is 17, the first 14 of which were used for the main study conducted in [*Dufour-Decieux, Moakler, Cameron, Reed*, 2022, https://arxiv.org/abs/2205.13664] while the last three with 320 carbons each were generated for the study of the size effect.<br>
 The file ***Degrees_prediction_10reac.csv*** contains degree counts predicted by the ten-reaction model, as well as  the numbers of carbons, temperatures, and H/C ratio data. In order to convert the degree counts to degree distributions, we divide these counts by the numbers of carbons in corresponsing systems also given in this file. ***Degrees_predictions_10reac.csv*** is converted to data arrays by function ***read_data(filename)***. <br>
 The file ***DegreeAndMolSizeMDdata.mat*** is a structure consisting of two 3-by-17 cell arrays: ***DegreeDistribution_cell*** and ***MolSizeDistribution_cell***:<br>
 d = load(fname_DegAndMolSize);<br>
@@ -35,7 +35,7 @@ Function ***SmallMolSizeDistr.m*** generates an input file ***W1data.mat*** for 
 
 * To reproduce plots with Wasserstein distances, run ***W1dist4SmallMolSizeDistr.m***
 
-Figures 5 and S8 in [*Dufour-Decieux, Moakler, Cameron, Reed*, 2022, https://arxiv.org/abs/2205.13664*] display the following **largest molecule size distributions**:<br> 
+Figures 5 and S8 in [*Dufour-Decieux, Moakler, Cameron, Reed*, 2022, https://arxiv.org/abs/2205.13664] display the following **largest molecule size distributions**:<br> 
 (4) extracted from MD data (MD data) and ,<br>
 (5) obtained using random graph sampling for degree distributions generated using the ten-reaction model (10RM+RGS). <br>
 In addition, Figure 5 displays Wasserstein W1 distances between distributions [(4) and (5)].<br>
