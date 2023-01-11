@@ -4,7 +4,7 @@ The configuration model and generating function formalism proposed by Newman, St
 can be used to predict molecule size distribution in hydrocarbon pyrolysis 
 [*Dufour-Decieux, Moakler, Cameron, Reed*, 2022, https://arxiv.org/abs/2205.13664].
 
-This repository contains a collection of Matlab codes allowing you to reproduce Figures 4 and 5 in the main text and S6, S7, and S8 in Supplementary Materials. It also contains a Python code Ten_reaction_model.ipynb that implements the ten-reaction model and predicts degree distributions for the carbon skeletons of hydrocarbons. The data files for Ten_reaction_model.ipynb are in the folder Data10reactionmodel.
+This repository contains a collection of Matlab codes allowing you to reproduce Figures 4 and 5 in the main text and S6, S7, and S8 in Supplementary Materials. It also contains a Python code ***Ten_reaction_model.ipynb*** that implements the ten-reaction model and predicts degree distributions for the carbon skeletons of hydrocarbons. The data files for ***Ten_reaction_model.ipynb*** are in the folder ***Data10reactionmodel***.
 
 Figures 4, S6, and S7 display the following **size distributions for small molecules**: <br>
 (1) predicted by random graph theory from the degree distribution extracted from MD simulations (RGT), <br>
